@@ -1,6 +1,9 @@
 # CommandWatcher
 Basic command watcher plugin for spigot 1.16
 
+## Screenshot
+![](https://raw.githubusercontent.com/tikinetwork/CommandWatcher/master/screenshot.png)
+
 ## Getting Started
 1. Download the latest release.
 2. Copy the .jar to your server `plugins` folder.
@@ -25,6 +28,11 @@ Basic command watcher plugin for spigot 1.16
 | `commandwatcher.reload` | Grants access to /cw reload command. |
 | `commandwatcher.watch` | Grants access to watch player executed commands. |
 | `commandwatcher.watchers` | Grants access to /cw watchers command. |
+
+## Config.yml
+```
+"ignored": ["help", "plugins"]
+```
 
 ## Authors:
 - [Tjeu Foolen](https://github.com/tjeufoolen)

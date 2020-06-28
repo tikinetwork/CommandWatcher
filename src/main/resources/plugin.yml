@@ -1,0 +1,28 @@
+name: CommandWatcher
+version: ${project.version}
+main: dev.foolen.commandwatcher.CommandWatcher
+api-version: 1.15
+authors: [tjeufoolen]
+description: basic command watcher
+website: https://github.com/tjeufoolen
+
+commands:
+  cw:
+    description: Core command watcher command
+    aliases: [commandwatcher]
+    permission: commandwatcher.watch
+    usage: /cw <subcommand> [arguments]
+
+permissions:
+  commandwatcher.ignored:
+    description: Grants access to /cw ignored command.
+    default: op
+  commandwatcher.reload:
+    description: Grants access to /cw reload command.
+    default: op
+  commandwatcher.watch:
+    description: Grants access to watch player executed commands.
+    default: op
+  commandwatcher.watchers:
+    description: Grants access to /cw watchers command.
+    default: op

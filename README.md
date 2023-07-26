@@ -1,5 +1,5 @@
 # CommandWatcher
-Basic command watcher plugin for spigot 1.16
+Basic command watcher plugin for spigot 1.20
 
 ## Screenshot
 ![](https://raw.githubusercontent.com/tikinetwork/CommandWatcher/master/screenshot.png)
